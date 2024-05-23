@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to left,rgb(100, 2, 2),rgb(2, 2, 116));
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.box{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    width: auto;
+    background-color: rgb(0, 0, 167);
+}
+.sg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header img{
+    height: 150px;
+    width: 150px;
+}
+h1{
+    letter-spacing: 3px;
+    color: rgb(255, 0, 0);
+}
+td{
+    width: 250px;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    margin: 5px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(0, 0, 255);
+}
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
+}
+a:focus{
+    color: gray;
+}
+.wprowadzenie{
+    font-size: 10px;
+    margin: 20px;
+    background-color: rgb(0, 0, 80);
+    width: 500px;
+    height: min-content;
+}
+.sg img{
+    margin: 20px;
+    width: 600px;
+    height: 300px;
+}
+footer{
+    font-size: 10px;
+    color: brown;
+    padding: 5px;
+    background-color: rgb(0, 0, 92);
+    height: 30px;
+}
+p{
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+}
+.menu{
+    justify-content: center;
+}
+.menu div{
+    padding-top: 40px;
+    font-size: 30px;
+    border: 5px solid darkblue;
+    height: 100px;
+}
+.text h2{
+    font-size: 30px;
+    color: brown;
+}
+.navo{
+    justify-content: left;
+}
+.produkty img{
+    margin: 50px;
+    height: 300px;
+    width: 250px;
+}
+@media (max-width: 1000px){
+    .box{
+        background-color: rgb(138, 104, 20);
+    }
+    a{
+        color: gold;
+    }
+}
